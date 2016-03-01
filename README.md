@@ -14,7 +14,7 @@
 ### IndexGet flag (args)
 * shortlist (flag):
  * Client wants to know the names of files with timestamps within a particular range
- * Command format: $-> IndexGet shortlist <startTimeStamp> <endTimeStamp>
+ * Command format: $-> IndexGet shortlist `<startTimeStamp>` `<endTimeStamp>`
  * example command: $-> IndexGet shortlist YYYY MM DD HH:MM:SS YYYY MM DD HH:MM:SS
  * Output: includes 'filename', 'size', 'timestamp' and 'type/permissions' of the files between the start and end time stamps
 *longlist (flag):
